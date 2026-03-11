@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0 5%;
+    font-family: 'Poppins', sans-serif; 
+    background: #0f0f0f;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    border-bottom: solid 2px #640e56;
+
+}
+nav h1{ 
+    color: blueviolet;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+nav button {
+    color: #ffffff;
+    background: blueviolet;
+    width: 10%;
+    margin: 20px;
+    border-radius: 20px;
+    border: blueviolet 1px solid;
+}
+
+
+.barraDePesquisa input{
+    margin: 20px;
+    width: 20%;
+    border-radius: 20px;
+    padding: 10px 15px;
+    background: #0f0f0f;
+
+}
+
+#principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5%;
+    border-top: solid 2px #640e56;
+    color: #ffffff;
+}
+
+
+#principal h1{
+    margin-bottom: 0;
+}
+
+#buttonPrincipal{
+
+    width: 100%;   
+    display: flex;
+    justify-content: center;
+}
+
+#buttonPrincipal button{
+    color: #ffffff;
+    background: blueviolet;
+    width: 10%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    border: blueviolet 1px solid;
+}
+
+.destaque {
+    
+    color: #ffffff;
+    padding: 20px;
+}
+
+.destaque .destaqueGatinhos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: solid 2px #640e56;
+    height: 40%;
+}
+
+.destaque img {
+    width: 250px;
+    height: 200px;    
+    object-fit: cover;
+    margin: 20px;
+    border: solid 2px blueviolet;
+}
